@@ -23,6 +23,7 @@ public class BallController : MonoBehaviour
             // Launch the ball when the player presses a key or taps the screen.
             if (Input.GetKeyDown(KeyCode.Space) || Input.touchCount > 0)
             {
+                Debug.Log("Launch");
                 LaunchBall();
             }
         }
